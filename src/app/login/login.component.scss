@@ -1,12 +1,38 @@
-#usrname{
-    margin-left:200px;
+#name{
+    margin-top:68px;
+    margin-left:160px;
 }
-#pswrd{
-    margin-left:200px;
+#password{
+    margin-top:68px;
+    margin-left:160px;
 }
 #btn{
-    margin-left:300px;
+    margin-left:210px;
+    margin-top:50px;
 }
 h3{
-    margin-left:150px;
+    margin-left:70px;
+    margin-top:60px;
+    //color:rgb(0, 81, 255);
+}
+.tab{
+    margin-left:400px;
+    margin-top:150px;
+    height:500px;
+    width:500px;
+    background-color:rgba(70, 69, 69, 0.661);
+    border-radius:10px;
+}
+h1{
+    padding-top:40px;
+    margin-left:200px;
+    color:rgb(0, 81, 255);
+}
+h6{
+    margin-top:20px;
+    margin-left:180px;
+}
+#logintype{
+    margin-left:190px;
+    margin-top:15px;
 }

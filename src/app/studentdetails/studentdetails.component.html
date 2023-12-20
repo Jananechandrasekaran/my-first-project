@@ -1,0 +1,36 @@
+<div class="continually">
+    <div class="tab">
+    <div class="row">
+        <div class="col-5"><h3>Name:</h3></div>
+        <div class="col-3"><input type="text" name="name" id="name" [(ngModel)]="Name"></div>
+    </div>
+    <div class="row">
+        <div class="col-5"><h3>Standard:</h3></div>
+        <div class="col-3"><input type="text" name="standard" id="standard" [(ngModel)]="Standard" ></div>
+    </div>
+    <div class="row">
+        <div class="col-5"><h3>Section:</h3></div>
+        <div class="col-3"><input type="text" name="section" id="section" [(ngModel)]="Section"></div>
+    </div>
+    <div class="row">
+        <div class="col-5"><h3>Phone number:</h3></div>
+        <div class="col-3"><input type="text" name="phone" id="phone" [(ngModel)]="Phonenumber"></div>
+    </div>
+    <div class="row">
+        <div class="col-5"><h3>Address:</h3></div>
+        <div class="col-3"><input type="text" name="address" id="address" [(ngModel)]="Address"></div>
+    </div>
+    <div class="row">
+        <div class="col-5"><h3> Email address:</h3></div>
+        <div class="col-3"><input type="text" name="mail" id="mail" [(ngModel)]="Email"></div>
+    </div>
+    <div class="row">
+        <div class="col-5"><h3> Password:</h3></div>
+        <div class="col-3"><input type="password" name="password" id="password" [(ngModel)]="Password"></div>
+    </div>
+    <button class="btn btn-success" id="submit" (click)="register()">Register</button> <button class="btn btn-danger" id="clear" (click)="clear()">clear</button>
+    </div>
+</div>
+
+
+
